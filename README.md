@@ -1,2 +1,2 @@
-# vscode
-vscode相关教程
+# hello golang
+for learning golang
