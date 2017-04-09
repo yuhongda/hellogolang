@@ -13,7 +13,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 func main() {
 	defer fmt.Println("!!")
 
-	fmt.Print("Hello, Go ")
+	fmt.Print("Hello, Go")
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", hello)
